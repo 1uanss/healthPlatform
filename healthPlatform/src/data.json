@@ -1,0 +1,15 @@
+{
+  "patients": [
+    {
+      "nome": "luan silva",
+      "idade": 27,
+      "telefone": "33984067601"
+    },
+    {
+      "nome": "Luan",
+      "idade": 27,
+      "telefone": "9885761324"
+    }
+  ],
+  "queue": []
+}

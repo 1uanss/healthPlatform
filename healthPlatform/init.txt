@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "inicializar projeto"
+
+cd "c:\Users\sousa\Desktop\integrador\healthPlatform\src"
+python main.py
