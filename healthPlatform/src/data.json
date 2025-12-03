@@ -9,6 +9,17 @@
       "nome": "Luan",
       "idade": 27,
       "telefone": "9885761324"
+    },
+    {
+      "nome": "Ana l",
+      "idade": 10,
+      "telefone": "98766756"
+    },
+    {
+      "nome": "Laura",
+      "idade": 34,
+      "telefone": "98764955",
+      "cpf": "10301943001"
     }
   ],
   "queue": []

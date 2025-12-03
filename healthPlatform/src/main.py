@@ -5,15 +5,20 @@ def main_menu():
     print("3. Ver estatísticas")
     print("4. Fila de atendimento")
     print("5. Listar todos os pacientes")
-    print("6. Sair")
+    print("6. Gerenciar agendamentos")
+    print("7. Gerenciar atendimentos")
+    print("8. Sair")
 
 def main():
     from controllers.patient_controller import PatientController
     from controllers.queue_controller import QueueController
+    from controllers.appointment_controller import AppointmentController
+    from controllers.attendance_controller import AttendanceController
 
-    # INSTANCIAR AS CLASSES
     patient_controller = PatientController()
     queue_controller = QueueController()
+    appointment_controller = AppointmentController()
+    attendance_controller = AttendanceController()
 
     while True:
         main_menu()
@@ -29,6 +34,10 @@ def main():
         elif choice == '5':
             patient_controller.list_patients()
         elif choice == '6':
+            appointment_controller.manage_menu()
+        elif choice == '7':
+            attendance_controller.manage_menu()
+        elif choice == '8':
             print("Saindo... Até logo.")
             break
         else:
